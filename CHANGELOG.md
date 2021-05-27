@@ -1,7 +1,13 @@
 <!-- Keep a Changelog guide -> https://keepachangelog.com -->
 
-# Emmet-Everywhere Changelog
+# Emmet Everywhere Platform Plugin Changelog
 
-## [Unreleased]
+## [1.2.6]
 ### Added
-- Initial scaffold created from [IntelliJ Platform Plugin Template](https://github.com/JetBrains/intellij-platform-plugin-template)
+- Nothing
+
+### Changed
+- Update java
+
+### Fixed
+- Nothing

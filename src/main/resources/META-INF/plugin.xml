@@ -1,19 +1,22 @@
 <idea-plugin>
-    <id>com.github.edejin.emmeteverywhere</id>
-    <name>Emmet-Everywhere</name>
-    <vendor>edejin</vendor>
+    <id>ua.in.dej.myEmmet</id>
+    <name>Emmet Everywhere</name>
+    <vendor url="http://dej.in.ua/emmet-everywhere/" email="efim@dej.in.ua">Efim Vl. Dejin</vendor>
 
     <!-- Product and plugin compatibility requirements -->
     <!-- https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html -->
     <depends>com.intellij.modules.platform</depends>
 
     <extensions defaultExtensionNs="com.intellij">
-        <applicationService serviceImplementation="com.github.edejin.emmeteverywhere.services.MyApplicationService"/>
-        <projectService serviceImplementation="com.github.edejin.emmeteverywhere.services.MyProjectService"/>
     </extensions>
 
     <applicationListeners>
-        <listener class="com.github.edejin.emmeteverywhere.listeners.MyProjectManagerListener"
-                  topic="com.intellij.openapi.project.ProjectManagerListener"/>
     </applicationListeners>
+
+    <actions>
+        <action id="EmmetEverywhere" class="ua.in.dej.myEmmet.myEmmet" text="EmmetEverywhere" description="EmmetEverywhere">
+            <add-to-group group-id="EditorActions" anchor="first"/>
+            <keyboard-shortcut keymap="$default" first-keystroke="ctrl alt CLOSE_BRACKET"/>
+        </action>
+    </actions>
 </idea-plugin>
