@@ -1,3 +1,5 @@
+Old version https://github.com/edejin/EmmetEverywhere
+
 <!-- Plugin description -->
 
 EmmetEverywhere Plugin for IntelliJ IDEA
