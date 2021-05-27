@@ -1,6 +1,6 @@
-package org.jetbrains.plugins.template.services
+package com.github.edejin.emmeteverywhere.services
 
-import org.jetbrains.plugins.template.MyBundle
+import com.github.edejin.emmeteverywhere.MyBundle
 
 class MyApplicationService {
 
