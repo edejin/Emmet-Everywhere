@@ -1,3 +1,8 @@
+![Build](https://github.com/edejin/Groupper/workflows/Build/badge.svg)
+[![Version](https://img.shields.io/jetbrains/plugin/v/7450-emmet-everywhere.svg)](https://plugins.jetbrains.com/plugin/7450-emmet-everywhere)
+[![Downloads](https://img.shields.io/jetbrains/plugin/d/7450-emmet-everywhere.svg)](https://plugins.jetbrains.com/plugin/7450-emmet-everywhere)
+
+
 Old version https://github.com/edejin/EmmetEverywhere
 
 <!-- Plugin description -->
