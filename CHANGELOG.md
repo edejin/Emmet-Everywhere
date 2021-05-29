@@ -3,6 +3,9 @@
 # Emmet Everywhere Platform Plugin Changelog
 
 ## [Unreleased]
+### Changed
+- Minor updates
+
 ## [1.2.6]
 ### Added
 - Nothing
